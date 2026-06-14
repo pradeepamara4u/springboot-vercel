@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "target/springboot-vercel-1.0.0.jar",
-      "use": "@vercel/java"
+      "src": "api/index.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "target/springboot-vercel-1.0.0.jar"
+      "dest": "/api/index.js"
     }
   ]
 }
