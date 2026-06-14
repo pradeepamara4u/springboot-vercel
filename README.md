@@ -11,6 +11,10 @@ This project provides a modern TypeScript-based API client for communicating wit
 - **CLI application** for testing endpoints
 - **Vercel-ready deployment** with serverless functions
 
+## Live Demo
+
+🚀 **Deployed Application**: [https://springboot-vercel-khaki.vercel.app/](https://springboot-vercel-khaki.vercel.app/)
+
 ## Project Structure
 
 ```
@@ -123,6 +127,8 @@ Returns the current API base URL.
 3. **Deploy** - Vercel will automatically build and deploy
 
 The `vercel.json` configuration routes all requests to the serverless function at `api/index.js`.
+
+**Deployed URL**: https://springboot-vercel-khaki.vercel.app/
 
 ## Language Composition
 
